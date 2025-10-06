@@ -1,16 +1,6 @@
-/*
- * Day 1 Exercise 1: Hello Validation World
- *
- * TODO: Complete this program to print a welcome message
- * for Post-Silicon Validation using C.
- *
- * Compile with: gcc -Wall -Wextra -std=c99 -o hello hello.c
- * Run with: ./hello
- */
-
 #include <stdio.h>
 
-void main() {
-    printf << "Hello Validation World";
+int main(){
+    printf("Hello Validation World");
+    return(0);
 }
-
