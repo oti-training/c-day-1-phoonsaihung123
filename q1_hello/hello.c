@@ -10,9 +10,7 @@
 
 #include <stdio.h>
 
-int main(void) {
-    // TODO: Add your printf statements here
-
-    return 0;
+void main() {
+    printf << "Hello Validation World";
 }
 
