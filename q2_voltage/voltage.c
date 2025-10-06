@@ -17,7 +17,6 @@
  * @return 1 if valid, 0 if invalid
  */
 int is_valid_voltage(float voltage) {
-    if ("%voltage")
     return -1;  // Placeholder to fail all tests
 }
 
