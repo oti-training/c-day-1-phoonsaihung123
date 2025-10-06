@@ -17,7 +17,7 @@
  * @return 1 if valid, 0 if invalid
  */
 int is_valid_voltage(float voltage) {
-    
+    if ("%voltage")
     return -1;  // Placeholder to fail all tests
 }
 
@@ -33,7 +33,14 @@ int main(void) {
     // TODO: Read input and validate
     printf("Enter measured voltage: ");
     scanf("%f", &measured_voltage);  // Uncomment and use
-
+    is_valid_voltage(measured_voltage);
+    if (measured_voltage < voltage_min){
+        printf("FAIL: Voltage too low!\n");
+    }else if(measured_voltage > voltage_max){
+        printf("FAIL: Voltage too high!\n");
+    }else{
+        printf("PASS: Voltage within range\n");
+    }
     return 0;
 }
 #endif
